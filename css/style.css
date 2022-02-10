@@ -8,14 +8,23 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #000000;
+  --bg-color: #552b77;
   background-image: url(..images/xicon/background.gif);
-  --font-color: #fdfdfd;
-  --btn-bg-color: #f3f3f3;
-  --accent-color: #000000;
-  --header-shadow: rgb(255, 255, 255) 0px 0px 5px;
+  --font-color: #fc8ce9;
+  --btn-bg-color: #ffffff;
+  --accent-color: #8c439b;
+  --header-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 
+.icons{
+  display:inline-block;
+  width: 64px; 
+  height: 64px; 
+  }
+  
+   a.icons:hover {
+   background: rgb(255, 255, 254);
+   }
 
 
 * {
